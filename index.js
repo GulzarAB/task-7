@@ -11,7 +11,7 @@ btn.addEventListener("click",function () {
      input.value = "";
 
      p.addEventListener("click",function(){
-         p.remove();
+         div.removeChild(p);
      })
 
 
